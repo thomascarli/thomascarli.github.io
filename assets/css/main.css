@@ -9,6 +9,16 @@
 
 /* Reset */
 
+ #me {
+	 background-color: black;
+ }
+ #work {
+	background-color: black;
+ }
+ #contact {
+	background-color: black;
+ }
+
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
@@ -19,8 +29,10 @@
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		background-color: black;
 		display: block;
 	}
+
 
 	body {
 		line-height: 1;
@@ -316,6 +328,10 @@
 
 	@media screen and (min-width: 737px) {
 
+		article {
+			background-color: black;
+		}
+
 		.row > * {
 			padding: 25px 0 0 25px;
 		}
@@ -530,6 +546,10 @@
 	}
 
 	@media screen and (max-width: 736px) {
+
+		article {
+			background-color: black;
+		}
 
 		.row > * {
 			padding: 15px 0 0 15px;
@@ -747,7 +767,7 @@
 /* Basic */
 
 	body {
-		background-image: url("images/overlay.png"), url("images/bg.jpg");
+		background-color: black;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
 		font-family: 'Source Sans Pro', sans-serif;
@@ -1136,6 +1156,9 @@
 /* Desktop */
 
 	@media screen and (min-width: 737px) {
+		article {
+			background-color: black;
+		}
 
 		/* Basic */
 
@@ -1183,6 +1206,14 @@
 				header > p {
 					margin: 0.5em 0 0 0;
 				}
+
+			.special-title {
+				color: #283845;
+			}
+
+			.special-white {
+				color: white;
+			}
 
 		/* Button */
 
@@ -1255,7 +1286,7 @@
 						font-size: 0.8em;
 					}
 
-					#nav a:after {
+					/*#nav a:after {
 						content: '';
 						display: block;
 						position: absolute;
@@ -1269,7 +1300,7 @@
 						-webkit-transition: border-bottom-width .25s ease-in-out;
 						-ms-transition: border-bottom-width .25s ease-in-out;
 						transition: border-bottom-width .25s ease-in-out;
-					}
+					}*/
 
 					#nav a span {
 						display: block;
@@ -1307,7 +1338,7 @@
 					}
 
 						#nav a:hover span {
-							opacity: 1.0;
+							color: #B8B08D;
 						}
 
 					#nav a.active {
@@ -1322,11 +1353,12 @@
 
 			#main {
 				width: 45em;
-				background: #ffffff;
+				background: black;
 				box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.25);
 			}
 
 			.panel {
+				background-color: black;
 				padding: 3.5em 2.5em 3.5em 2.5em;
 				position: absolute;
 				top: 0;
@@ -1434,6 +1466,10 @@
 
 		/* Basic */
 
+		article {
+			background-color: black;
+		}
+
 			body, input, textarea, select {
 				font-size: 11pt;
 				line-height: 1.75em;
@@ -1527,6 +1563,7 @@
 			}
 
 			.panel {
+				background-color: black;
 				padding: 15px 15px 15px 15px;
 				margin: 0 0 7px 0;
 				background: #ffffff;
