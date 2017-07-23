@@ -9,6 +9,12 @@
 */
 
 /* Reset */
+@media only screen and (min-device-width : 320px) and (max-device-width : 660px) {
+  .lil-yachty {
+    width: 300px !important;
+  }
+}
+
 
 html{
   width: 100%;
@@ -21,7 +27,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
 
 .drake {
   width: inherit;
